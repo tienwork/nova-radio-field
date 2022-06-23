@@ -1,5 +1,5 @@
 <template>
-    <default-field :field="field" :errors="errors">
+    <DefaultField :field="field" :errors="errors">
         <template slot="field">
 
             <div :class="{'flex flex-wrap' : !field.stack, 'border-danger': hasError}">
@@ -13,7 +13,7 @@
             </div>
 
         </template>
-    </default-field>
+    </DefaultField>
 </template>
 
 <script>

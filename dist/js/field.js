@@ -5624,9 +5624,9 @@ var _hoisted_5 = {
   "class": "mlbz-radio-hint mt-1 block text-sm text-80 leading-normal"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  var _component_default_field = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("default-field");
+  var _component_DefaultField = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("DefaultField");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_default_field, {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_DefaultField, {
     field: $props.field,
     errors: _ctx.errors
   }, {
