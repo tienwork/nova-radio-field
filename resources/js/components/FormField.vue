@@ -1,7 +1,7 @@
 <template>
-    <DefaultField :field="field" :errors="errors">
+    <DefaultField :field="field" :errors="errors" :full-width-content="true">
         <template slot="field">
-
+            <p>test</p>
             <div :class="{'flex flex-wrap' : !field.stack, 'border-danger': hasError}">
                 <div v-for="(option, val) in field.options" :class="{'mb-2' : field.stack || field.addPadding}"  class="mlbz-radio-container">
                     <label :for="`${field.attribute}_${val}`">
