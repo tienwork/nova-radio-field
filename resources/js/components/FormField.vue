@@ -1,7 +1,7 @@
 <template>
     <DefaultField :field="field" :errors="errors">
         <template slot="field">
-            <p>field is here</p>
+
             <div :class="{'flex flex-wrap' : !field.stack, 'border-danger': hasError}">
                 <div v-for="(option, val) in field.options" :class="{'mb-2' : field.stack || field.addPadding}"  class="mlbz-radio-container">
                     <label :for="`${field.attribute}_${val}`">
@@ -31,7 +31,9 @@
                 return this.value;
             }
         },
-
+        mounted(){
+            console.log(test);
+        },
         methods: {
             /*
              * Set the initial, internal value for the field.
