@@ -32,7 +32,7 @@
             }
         },
         mounted(){
-            console.log(test);
+            console.log(123);
         },
         methods: {
             /*
