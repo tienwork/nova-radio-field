@@ -5478,7 +5478,7 @@ __webpack_require__.r(__webpack_exports__);
     }
   },
   mounted: function mounted() {
-    console.log(123);
+    console.log(this.field);
   },
   methods: {
     /*
@@ -5617,17 +5617,12 @@ __webpack_require__.r(__webpack_exports__);
 var _hoisted_1 = {
   slot: "field"
 };
-
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "test", -1
-/* HOISTED */
-);
-
-var _hoisted_3 = ["for"];
-var _hoisted_4 = ["value", "id", "name", "disabled"];
-var _hoisted_5 = {
+var _hoisted_2 = ["for"];
+var _hoisted_3 = ["value", "id", "name", "disabled"];
+var _hoisted_4 = {
   "class": "mlbz-radio-label"
 };
-var _hoisted_6 = {
+var _hoisted_5 = {
   key: 0,
   "class": "mlbz-radio-hint mt-1 block text-sm text-80 leading-normal"
 };
@@ -5640,7 +5635,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "full-width-content": true
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("template", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("template", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
         "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)({
           'flex flex-wrap': !$props.field.stack,
           'border-danger': _ctx.hasError
@@ -5664,13 +5659,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           disabled: $props.field.disabled
         }, null, 8
         /* PROPS */
-        , _hoisted_4), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelRadio, _ctx.value]]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.getOptionLabel(option)), 1
+        , _hoisted_3), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelRadio, _ctx.value]]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.getOptionLabel(option)), 1
         /* TEXT */
-        ), $props.field.stack && _ctx.hasOptionHint(option) ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("span", _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.getOptionHint(option)), 1
+        ), $props.field.stack && _ctx.hasOptionHint(option) ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("span", _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.getOptionHint(option)), 1
         /* TEXT */
         )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)], 8
         /* PROPS */
-        , _hoisted_3)], 2
+        , _hoisted_2)], 2
         /* CLASS */
         );
       }), 256
