@@ -5478,7 +5478,7 @@ __webpack_require__.r(__webpack_exports__);
     }
   },
   mounted: function mounted() {
-    console.log(test);
+    console.log(123);
   },
   methods: {
     /*
