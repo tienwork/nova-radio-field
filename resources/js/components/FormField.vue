@@ -30,9 +30,6 @@
                 return this.value;
             }
         },
-        mounted(){
-            console.log(this.field);
-        },
         methods: {
             /*
              * Set the initial, internal value for the field.

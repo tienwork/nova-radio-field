@@ -5477,9 +5477,6 @@ __webpack_require__.r(__webpack_exports__);
       return this.value;
     }
   },
-  mounted: function mounted() {
-    console.log(this.field);
-  },
   methods: {
     /*
      * Set the initial, internal value for the field.
